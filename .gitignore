@@ -1,0 +1,37 @@
+# Compiled assets
+build
+
+# Links
+/Premiere/speech/ExternalObjects
+/Premiere/speech/bin
+/Premiere/speech/reactUI
+
+# /Premiere/Win/
+DATranscriptive.bundle
+/Premiere/Win/DeletePanel.nsh
+
+# Dependencies
+node_modules
+
+# Unit test dump files
+expected
+
+# Misc
+.DS_Store
+npm-debug.log
+package-lock.json
+.eslintrc.json
+yarn-error.log
+yarn.lock
+.env*
+
+index.js
+lib/
+
+# These files are version controlled
+!.env.prod
+!.env.web.prod
+!.env.sample
+!.env.test
+!/Premiere/speech/.eslintrc.json
+!/FinalCutPro/speech/.eslintrc.json
